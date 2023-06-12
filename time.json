@@ -1,0 +1,79 @@
+[
+  {
+    "id": "private-sale",
+    "name": "Private Sale",
+    "description": "72 hours",
+    "start": "2023-06-21 07:00:00",
+    "duration": {
+      "value": 3,
+      "unit": "d"
+    },
+    "after_id": ""
+  },
+  {
+    "id": "break-1",
+    "name": "Break 1",
+    "description": "3 hours",
+    "start": null,
+    "duration": {
+      "value": 3,
+      "unit": "h"
+    },
+    "after_id": "private-sale"
+  },
+  {
+    "id": "public-sale",
+    "name": "Public Sale",
+    "description": "120 hours",
+    "start": null,
+    "duration": {
+      "value": 5,
+      "unit": "d"
+    },
+    "after_id": "break-1"
+  },
+  {
+    "id": "break-2",
+    "name": "Break 2",
+    "description": "3 hours",
+    "start": null,
+    "duration": {
+      "value": 3,
+      "unit": "h"
+    },
+    "after_id": "public-sale"
+  },
+  {
+    "id": "private-claim",
+    "name": "Private Claim",
+    "description": "24 hours",
+    "start": null,
+    "duration": {
+      "value": 1,
+      "unit": "d"
+    },
+    "after_id": "break-2"
+  },
+  {
+    "id": "break-3",
+    "name": "Break 3",
+    "description": "3 hours",
+    "start": null,
+    "duration": {
+      "value": 3,
+      "unit": "h"
+    },
+    "after_id": "private-claim"
+  },
+  {
+    "id": "public-claim",
+    "name": "Public Claim",
+    "description": "24 hours",
+    "start": null,
+    "duration": {
+      "value": 1,
+      "unit": "d"
+    },
+    "after_id": "break-3"
+  }
+]
